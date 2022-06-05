@@ -4,12 +4,6 @@ variable "rest_api_name"{
     default = "thumbnail"
 }
 
-variable "rest_api_name" {
-  type        = string
-  description = "Name of the API Gateway created"
-  default     = "terraform-api-gateway-example"
-}
-
 variable "api_gateway_region" {
   type        = string
   description = "The region in which to create/manage resources"
@@ -36,3 +30,4 @@ variable "rest_api_stage_name" {
   description = "The name of the API Gateway stage"
   default     = "prod" //add a stage name as per your requirement
 }
+

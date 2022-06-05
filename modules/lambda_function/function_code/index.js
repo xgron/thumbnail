@@ -12,6 +12,6 @@ exports.handler = async (event) => {
 		headers: {
 			"Content-Type": "application/json",
 		},
-		body: JSON.stringify({ thumbnails }), //sending the array of movies as stringified JSON in the response
+		body: JSON.stringify({ thumbnails }), //sending the array of thumbnails as stringified JSON in the response
 	};
 };
